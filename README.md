@@ -63,6 +63,7 @@ python test_baseline.py
 ```eval
 cd /focus/code_face or cd /focus/code_animal
 python test_caps_cam.py 
+```
 
 
 ## Pre-trained Models
