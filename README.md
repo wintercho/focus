@@ -28,8 +28,7 @@ The datasets manipulated in this code can be downloaded on the following locatio
 
 ## Training
 
-To train the model(s) in the paper, run this command:
-1. For training baseline model: 
+1. To train the baseline model: 
  - LFWface
 ```train
 cd /focus/code_face
@@ -40,19 +39,31 @@ python train_baseline.py
 cd /focus/code_animal
 python train_baseline.py
 ```
-2. 
-
-
+2. To train the best model in the paper, run this command:
+ - LFWface
+```train
+cd /focus/code_face
+python train_caps_cam.py
+```
+ - animal
+ ```train
+cd /focus/code_animal
+python train_caps_cam.py
+```
+When training this model, if training accuracy does not increase, multiply the learning rate by 0.1.
 
 ## Evaluation
 
-To evaluate my model on ImageNet, run:
-
+1. To evaluate the baseline model on LFWface/animal, run:
 ```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
+cd /focus/code_face or cd /focus/code_animal
+python test_baseline.py 
 ```
+2. To evaluate our model on LFWface/animal, run:
+```eval
+cd /focus/code_face or cd /focus/code_animal
+python test_caps_cam.py 
 
-> 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 ## Pre-trained Models
 
@@ -68,13 +79,13 @@ Our model achieves the following performance on :
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+| Model name         | Accuracy | Precision | Recall | F1-Score |
+| ------------------ |--------- | --------- |------- |--------- |
+| My awesome model   |     85%  |      95%  |        |          |
 
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 
 ## Contributing
 
-> 📋Pick a licence and describe how to contribute to your code repository. 
+> Our paper is submited to NeurIPS 2020. If use our codes, please cite our paper.
