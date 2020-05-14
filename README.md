@@ -24,6 +24,7 @@ The datasets manipulated in this code can be downloaded on the following locatio
 
 2. animal:
   - Baiduyun: https://pan.baidu.com/s/1dTd80kqvT7TnSZZcVdeVZA,    Extraction code: ixqe.  
+
 Download correspond dataset to folder 'data'.
 
 ## Training
@@ -65,7 +66,6 @@ cd /focus/code_face or cd /focus/code_animal
 python test_caps_cam.py 
 ```
 
-
 ## Pre-trained Models
 
 You can download pretrained models here:
@@ -78,14 +78,21 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [Focus Classification on LFWface](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### Focus Classification on LFWface
 
-| Model name         | Accuracy | Precision | Recall | F1-Score |
+|     Model name     | Accuracy | Precision | Recall | F1-Score |
+| ------------------ |--------- | --------- |------- |--------- |
+|      baseline      |       %  |        %  |        |          |
 | ------------------ |--------- | --------- |------- |--------- |
 | My awesome model   |  84.71%  |        %  |        |          |
 
-> 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+### Focus Classification on animal
 
+|      Model name    | Accuracy | Precision | Recall | F1-Score |
+| ------------------ |--------- | --------- |------- |--------- |
+|       baseline     |       %  |        %  |        |          |
+| ------------------ |--------- | --------- |------- |--------- |
+| My awesome model   |  77.44%  |        %  |        |          |
 
 ## Contributing
 
