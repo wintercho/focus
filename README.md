@@ -24,7 +24,7 @@ The datasets manipulated in this code can be downloaded on the following locatio
 
 2. animal:
   - Baiduyun: https://pan.baidu.com/s/1dTd80kqvT7TnSZZcVdeVZA,    Extraction code: ixqe.
-
+Download correspond dataset to folder 'data'.
 
 ## Training
 
@@ -78,15 +78,15 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### [Focus Classification on LFWface](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
 | Model name         | Accuracy | Precision | Recall | F1-Score |
 | ------------------ |--------- | --------- |------- |--------- |
-| My awesome model   |     85%  |      95%  |        |          |
+| My awesome model   |  84.71%  |        %  |        |          |
 
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 
 ## Contributing
 
-> Our paper is submited to NeurIPS 2020. If use our codes, please cite our paper.
+Our paper is submited to NeurIPS 2020. If use our codes, please cite our paper.
