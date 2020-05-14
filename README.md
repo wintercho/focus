@@ -90,7 +90,6 @@ Our model achieves the following performance on :
 |      Model name    | Accuracy | Precision | Recall | F1-Score |
 | ------------------ |--------- | --------- |------- |--------- |
 |       baseline     |       %  |        %  |        |          |
-| ------------------ |--------- | --------- |------- |--------- |
 | My awesome model   |  77.44%  |        %  |        |          |
 
 ## Contributing
