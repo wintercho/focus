@@ -23,7 +23,7 @@ The datasets manipulated in this code can be downloaded on the following locatio
   - Baiduyun: https://pan.baidu.com/s/1QIM8ZVbitRopECfGCKTaZg,    Extraction code: 39t9;
 
 2. animal:
-  - Baiduyun: https://pan.baidu.com/s/1dTd80kqvT7TnSZZcVdeVZA,    Extraction code: ixqe.
+  - Baiduyun: https://pan.baidu.com/s/1dTd80kqvT7TnSZZcVdeVZA,    Extraction code: ixqe.  
 Download correspond dataset to folder 'data'.
 
 ## Training
