@@ -81,7 +81,7 @@ Our model achieves the following performance on :
 ### Onfocus detection on LFWface
 
 |     Model name     |  Accuracy |  F1-Score |
-| ------------------ | --------- | --------- |
+| :----------------: | :-------: | :-------: |
 |       DEEPEC       |  0.7939   |  0.8639   |
 | Gaze-lock detector |  0.8129   |  0.8821   |
 |       PiCNN        |  0.7996   |  0.8747   |
@@ -101,10 +101,24 @@ Our model achieves the following performance on :
 
 ### Onfocus detection on animal
 
-|      Model name    | Accuracy | Precision | Recall | F1-Score |
-| ------------------ |--------- | --------- |------- |--------- |
-|       baseline     |       %  |        %  |        |          |
-| My awesome model   |  77.44%  |        %  |        |          |
+|      Model name    | Accuracy  | F1-Score  |
+| :----------------: | :-------: | :-------: |
+|       DEEPEC       |  0.5411   |  0.6323   |
+| Gaze-lock detector |  0.5801   |  0.6450   |
+|       PiCNN        |  0.5584   |  0.5996   |
+|  Multimodal CNN    |  0.5487   |  0.6329   |
+|       CA-Net       |  0.6272   |  0.6518   |
+|       NTSnet       |  0.7030   |  0.7183   |
+|       MPN-COV      |  0.7192   |  0.7435   |
+|       DFL          |  0.7495   |  0.7504   |
+|       BCNN         |  0.7608   |  0.7600   |
+|       DCL          |  0.7576   |  0.7679   |
+|       VGG16        |  0.7516   |  0.7536   |
+|       Resnet50     |  0.7446   |  0.7495   |
+|       Res2net50    |  0.7505   |  0.7572   |
+|       Densenet121  |  0.7608   |  0.7676   |
+|       Senet154     |  0.7673   |  0.7746   |
+|       Ours         |  **0.7744**   |  **0.7747**   |
 
 ## Contributing
 
