@@ -1,6 +1,6 @@
-# My Paper Title
+# Onfocus Detection: Identifying Individual-Camera Eye Contact from Unconstrained Images
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of Onfocus Detection: Identifying Individual-Camera Eye Contact from Unconstrained Images
 
 ## Requirements
 
@@ -78,14 +78,31 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### Focus Classification on LFWface
+### Onfocus detection on LFWface
 
-|     Model name     | Accuracy | Precision | Recall | F1-Score |
-| ------------------ |--------- | --------- |------- |--------- |
-|      baseline      |       %  |        %  |        |          |
-| My awesome model   |  84.71%  |        %  |        |          |
+|     Model name     |  Accuracy |  F1-Score |
+| ------------------ | --------- | --------- |
+|       DEEPEC       |  0.7939   |  0.8639   |
+| Gaze-lock detector |  0.8129   |  0.8821   |
+|       PiCNN        |  0.7996   |  0.8747   |
+|  Multimodal CNN    |  0.7634   |  0.8476   |
+|       CA-Net       |  0.8117   |  0.8809   |
+| ------------------ | --------- | --------- |
+|       NTSnet       |  0.8190   |  0.8834   |
+|       MPN-COV      |  0.8362   |  0.8926   |
+|       DFL          |  0.8102   |  0.8814   |
+|       BCNN         |  0.8320   |  0.8919   |
+|       DCL          |  0.8214   |  0.8867   |
+| ------------------ | --------- | --------- |
+|       VGG16        |  0.8262   |  0.8897   |
+|       Resnet50     |  0.8229   |  0.8837   |
+|       Res2net50    |  0.8223   |  0.8861   |
+|       Densenet121  |  0.8290   |  0.8904   |
+|       Senet154     |  0.8193   |  0.8832   |
+| ------------------ | --------- | --------- |
+| My awesome model   |  0.8471   |  0.9007   |
 
-### Focus Classification on animal
+### Onfocus detection on animal
 
 |      Model name    | Accuracy | Precision | Recall | F1-Score |
 | ------------------ |--------- | --------- |------- |--------- |
