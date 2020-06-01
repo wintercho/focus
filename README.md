@@ -59,10 +59,9 @@ python test_caps_cam.py
 ## Pre-trained Models
 
 You can download pretrained models here:
+- Baiduyun：https://pan.baidu.com/s/1qgjzbwZSxWl3q0Co66Cn9A    Extraction code：jr0h.
 
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
-> 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+Please put it to corresponding paths in the code_face/code_animal.
 
 ## Results
 
