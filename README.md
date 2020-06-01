@@ -29,18 +29,7 @@ Download correspond dataset to folder 'data'.
 
 ## Training
 
-1. To train the baseline model: 
- - LFWface
-```train
-cd /focus/code_face
-python train_baseline.py
-```
- - animal
- ```train
-cd /focus/code_animal
-python train_baseline.py
-```
-2. To train the best model in the paper, run this command:
+To train the best model in the paper, run this command:
  - LFWface
 ```train
 cd /focus/code_face
@@ -55,14 +44,15 @@ When training this model, if training accuracy does not increase, multiply the l
 
 ## Evaluation
 
-1. To evaluate the baseline model on LFWface/animal, run:
+To evaluate our model on LFWface/animal, run:
+ - LFWface
 ```eval
-cd /focus/code_face or cd /focus/code_animal
-python test_baseline.py 
+cd /focus/code_face
+python test_caps_cam.py 
 ```
-2. To evaluate our model on LFWface/animal, run:
-```eval
-cd /focus/code_face or cd /focus/code_animal
+ - animal
+ ```eval
+cd /focus/code_animal
 python test_caps_cam.py 
 ```
 
