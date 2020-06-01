@@ -42,7 +42,7 @@ python train_caps_cam.py
 ```
 When training this model, if training accuracy does not increase, multiply the learning rate by 0.1.
 
-## Evaluation
+## Test and Evaluation
 
 To evaluate our model on LFWface/animal, run:
  - LFWface
