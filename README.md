@@ -61,7 +61,7 @@ python test_caps_cam.py
 You can download pretrained models here:
 - Baiduyun：https://pan.baidu.com/s/1qgjzbwZSxWl3q0Co66Cn9A    Extraction code：jr0h.
 
-Please put it to corresponding paths in the code_face/code_animal.
+Please put them accordingly in the code_face/pths1 or code_animal/pths1 folder.
 
 ## Results
 
