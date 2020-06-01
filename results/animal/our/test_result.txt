@@ -1,0 +1,5 @@
+model_path:./pths28/epoch1-16.pth
+precision:0.8120
+recall:0.7407
+f1_score:0.7747
+accuracy:0.7744

@@ -1,0 +1,5 @@
+model_path:./pths105/epoch1-64.pth
+precision:0.8870
+recall:0.8892
+f1_score:0.8881
+accuracy:0.8302

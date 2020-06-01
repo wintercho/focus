@@ -1,0 +1,5 @@
+model_path:./pths3/epoch1-77.pth
+precision:0.8810
+recall:0.9123
+f1_score:0.8964
+accuracy:0.8401
