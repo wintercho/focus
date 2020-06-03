@@ -35,12 +35,12 @@ To train the best model in the paper, run this command:
 cd /focus/code_face
 python train_caps_cam.py
 ```
+
  - animal
  ```train
 cd /focus/code_animal
 python train_caps_cam.py
 ```
-When training this model, if training accuracy does not increase, multiply the learning rate by 0.1.
 
 ## Test and Evaluation
 
