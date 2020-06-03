@@ -1,0 +1,1 @@
+For saving the pretrained model: vgg16_bn.pth
