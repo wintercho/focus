@@ -20,10 +20,12 @@ Experiments were done with the following package versions for Python 3.6:
 
 The datasets manipulated in this code can be downloaded on the following locations:
 1. LFWface:
-  - Baiduyun: https://pan.baidu.com/s/1QIM8ZVbitRopECfGCKTaZg,    Extraction code: 39t9;
+  - [Baiduyun](https://pan.baidu.com/s/1QIM8ZVbitRopECfGCKTaZg),    Extraction code: 39t9;
+  - [Google Drive](https://drive.google.com/file/d/15W5gSOwM2e7xDtOYRWxgo6Y-mayxq5bt/view?usp=sharing);
 
 2. animal:
-  - Baiduyun: https://pan.baidu.com/s/1dTd80kqvT7TnSZZcVdeVZA,    Extraction code: ixqe.  
+  - [Baiduyun](https://pan.baidu.com/s/1dTd80kqvT7TnSZZcVdeVZA),    Extraction code: ixqe;
+  - [Google Drive](https://drive.google.com/file/d/1xprQz63rdVSzumNfEmaIefVbMxa51Pk9/view?usp=sharing).
 
 Download correspond dataset to folder 'data'.
 
@@ -59,7 +61,8 @@ python test_caps_cam.py
 ## Pre-trained Models
 
 You can download pretrained models here:
-- Baiduyun：https://pan.baidu.com/s/1qgjzbwZSxWl3q0Co66Cn9A    Extraction code：jr0h.
+- [Baiduyun](https://pan.baidu.com/s/1qgjzbwZSxWl3q0Co66Cn9A),    Extraction code：jr0h;
+- [Google Drive](https://drive.google.com/file/d/1x08Lti8wbwSeqIF31th5VJQkt2LWGdxC/view?usp=sharing).
 
 Please put them accordingly in the code_face/pths1 or code_animal/pths1 folder.
 
